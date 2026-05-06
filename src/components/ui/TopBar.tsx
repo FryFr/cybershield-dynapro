@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useNavigate } from 'react-router-dom'
 import { useGame } from '../../engine/GameContext'
+import { useAuth } from '../../hooks/useAuth'
 import { audioEngine } from '../../engine/AudioEngine'
 import LEVELS from '../../engine/gameContent'
 
@@ -10,6 +12,8 @@ interface TopBarProps {
 
 export function TopBar({ onGoHome }: TopBarProps) {
   const { t, i18n } = useTranslation()
+  const navigate = useNavigate()
+  const { isAdmin } = useAuth()
   const { score, lives, currentLevelIndex, completedLevels, phase } = useGame()
   const [muted, setMuted] = useState(false)
   const prevLives = useRef(lives)
@@ -90,6 +94,13 @@ export function TopBar({ onGoHome }: TopBarProps) {
       >
         {muted ? '🔇' : '🔊'}
       </button>
+
+      {isAdmin && (
+        <button className="topbar-home-btn" onClick={() => navigate('/admin')}
+          style={{ borderColor: '#f39c12', color: '#f39c12' }}>
+          ADMIN
+        </button>
+      )}
 
       {onGoHome && (
         <button className="topbar-home-btn" onClick={onGoHome}>
