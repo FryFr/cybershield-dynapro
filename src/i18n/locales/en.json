@@ -1,0 +1,130 @@
+{
+  "login": {
+    "title": "CyberShield",
+    "subtitle": "by Dynapro",
+    "tagline": "Cybersecurity Awareness Training",
+    "button": "Sign in with Dynapro account",
+    "error_domain": "Only Dynapro employees can access this app (@dynaproco.com or @dynaproequipment.com)",
+    "error_generic": "Login failed. Please try again."
+  },
+  "nav": {
+    "home": "Home",
+    "back": "Back",
+    "logout": "Sign out"
+  },
+  "levelMap": {
+    "title": "Level Map",
+    "subtitle": "Complete all 9 levels to earn your certificate",
+    "locked": "Locked",
+    "completed": "Completed",
+    "score": "Points",
+    "start": "Play",
+    "resume": "Resume",
+    "replay": "Replay"
+  },
+  "topBar": {
+    "lives": "Lives",
+    "score": "Points",
+    "level": "Level",
+    "progress": "Progress",
+    "levels": "levels"
+  },
+  "scene": {
+    "scenario": "Scenario",
+    "whatDo": "What do you do?",
+    "consequence": "Consequence",
+    "whySerious": "Why is it serious?",
+    "correctMove": "The right move:",
+    "retry": "Try again",
+    "retryLives_one": "{{count}} life left",
+    "retryLives_other": "{{count}} lives left",
+    "retryNoLives": "Restart level (no lives left)"
+  },
+  "statusBar": {
+    "active": "System active",
+    "version": "Dynapro Security Training v1.0",
+    "employee": "Employee"
+  },
+  "feedback": {
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "continue": "Continue",
+    "explanation": "Why?"
+  },
+  "levelComplete": {
+    "title": "Level Complete!",
+    "score": "Score",
+    "time": "Time",
+    "next": "Next Level",
+    "map": "View Map"
+  },
+  "gameComplete": {
+    "title": "You completed CyberShield!",
+    "subtitle": "You are now a certified cybersecurity agent",
+    "diploma": "View my diploma",
+    "share": "Share"
+  },
+  "diploma": {
+    "title": "Certificate of Completion",
+    "course": "Cybersecurity Course 2026",
+    "completed": "completed CyberShield by Dynapro",
+    "levels": "levels",
+    "points": "points",
+    "date": "date",
+    "verified": "VERIFIED",
+    "download": "Download diploma",
+    "copy_link": "Copy link"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "employees": "Employees",
+    "progress": "Progress",
+    "score": "Total Score",
+    "time_avg": "Avg. Time",
+    "export": "Export CSV",
+    "completed_levels": "Completed Levels",
+    "certificate": "Certificate"
+  },
+  "errors": {
+    "not_found": "Page not found",
+    "unauthorized": "You don't have permission to view this page"
+  },
+  "levels": {
+    "phishing": {
+      "title": "Phishing",
+      "description": "Spot fraudulent emails and messages"
+    },
+    "ransomware": {
+      "title": "Ransomware",
+      "description": "Protect company files from encryption attacks"
+    },
+    "physical": {
+      "title": "Physical Security",
+      "description": "Control access to workspaces"
+    },
+    "social_engineering": {
+      "title": "Social Engineering",
+      "description": "Identify psychological manipulation"
+    },
+    "passwords": {
+      "title": "Passwords",
+      "description": "Create and manage secure credentials"
+    },
+    "usb": {
+      "title": "USB / Devices",
+      "description": "Handle external devices safely"
+    },
+    "compliance": {
+      "title": "Laws & Compliance",
+      "description": "Know your legal obligations"
+    },
+    "remote_work": {
+      "title": "Remote Work",
+      "description": "Work from anywhere securely"
+    },
+    "malware": {
+      "title": "Malicious Software",
+      "description": "Detect and avoid harmful software"
+    }
+  }
+}

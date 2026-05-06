@@ -1,0 +1,130 @@
+{
+  "login": {
+    "title": "CyberShield",
+    "subtitle": "by Dynapro",
+    "tagline": "Capacitación en ciberseguridad",
+    "button": "Ingresar con cuenta Dynapro",
+    "error_domain": "Solo pueden ingresar empleados de Dynapro (@dynaproco.com o @dynaproequipment.com)",
+    "error_generic": "Error al iniciar sesión. Intentá de nuevo."
+  },
+  "nav": {
+    "home": "Inicio",
+    "back": "Volver",
+    "logout": "Cerrar sesión"
+  },
+  "levelMap": {
+    "title": "Mapa de niveles",
+    "subtitle": "Completá los 9 niveles para obtener tu certificado",
+    "locked": "Bloqueado",
+    "completed": "Completado",
+    "score": "Puntos",
+    "start": "Jugar",
+    "resume": "Continuar",
+    "replay": "Rejugar"
+  },
+  "topBar": {
+    "lives": "Vidas",
+    "score": "Puntos",
+    "level": "Nivel",
+    "progress": "Progreso",
+    "levels": "niveles"
+  },
+  "scene": {
+    "scenario": "Escenario",
+    "whatDo": "¿Qué haces?",
+    "consequence": "Consecuencia",
+    "whySerious": "¿Por qué es grave?",
+    "correctMove": "Lo correcto:",
+    "retry": "Intentar de nuevo",
+    "retryLives_one": "{{count}} vida restante",
+    "retryLives_other": "{{count}} vidas restantes",
+    "retryNoLives": "Reiniciar nivel (sin vidas)"
+  },
+  "statusBar": {
+    "active": "Sistema activo",
+    "version": "Dynapro Security Training v1.0",
+    "employee": "Empleado"
+  },
+  "feedback": {
+    "correct": "¡Correcto!",
+    "incorrect": "Incorrecto",
+    "continue": "Continuar",
+    "explanation": "¿Por qué?"
+  },
+  "levelComplete": {
+    "title": "¡Nivel completado!",
+    "score": "Puntaje",
+    "time": "Tiempo",
+    "next": "Siguiente nivel",
+    "map": "Ver mapa"
+  },
+  "gameComplete": {
+    "title": "¡Completaste CyberShield!",
+    "subtitle": "Ahora sos un agente de ciberseguridad certificado",
+    "diploma": "Ver mi diploma",
+    "share": "Compartir"
+  },
+  "diploma": {
+    "title": "Certificado de finalización",
+    "course": "Curso de Ciberseguridad 2026",
+    "completed": "completó CyberShield by Dynapro",
+    "levels": "niveles",
+    "points": "puntos",
+    "date": "fecha",
+    "verified": "VERIFICADO",
+    "download": "Descargar diploma",
+    "copy_link": "Copiar link"
+  },
+  "admin": {
+    "title": "Dashboard — Administrador",
+    "employees": "Empleados",
+    "progress": "Progreso",
+    "score": "Puntaje total",
+    "time_avg": "Tiempo promedio",
+    "export": "Exportar CSV",
+    "completed_levels": "Niveles completados",
+    "certificate": "Certificado"
+  },
+  "errors": {
+    "not_found": "Página no encontrada",
+    "unauthorized": "No tenés permiso para ver esta página"
+  },
+  "levels": {
+    "phishing": {
+      "title": "Phishing",
+      "description": "Reconoce emails y mensajes fraudulentos"
+    },
+    "ransomware": {
+      "title": "Ransomware",
+      "description": "Protege los archivos de la empresa"
+    },
+    "physical": {
+      "title": "Seguridad Física",
+      "description": "Controla el acceso a espacios de trabajo"
+    },
+    "social_engineering": {
+      "title": "Ingeniería Social",
+      "description": "Identifica manipulación psicológica"
+    },
+    "passwords": {
+      "title": "Contraseñas",
+      "description": "Crea y gestiona credenciales seguras"
+    },
+    "usb": {
+      "title": "USB / Dispositivos",
+      "description": "Maneja dispositivos externos con seguridad"
+    },
+    "compliance": {
+      "title": "Leyes & Compliance",
+      "description": "Conoce tus obligaciones legales"
+    },
+    "remote_work": {
+      "title": "Trabajo Remoto",
+      "description": "Trabaja desde cualquier lugar de forma segura"
+    },
+    "malware": {
+      "title": "Software Malicioso",
+      "description": "Detecta y evita software dañino"
+    }
+  }
+}
