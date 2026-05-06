@@ -31,7 +31,7 @@ export function Verify() {
       setNotFound(true)
     } else {
       setCert({
-        full_name: (data.profiles as { full_name: string })?.full_name ?? 'Empleado',
+        full_name: (data.profiles as unknown as { full_name: string })?.full_name ?? 'Empleado',
         issued_at: data.issued_at,
         final_score: data.final_score,
         diploma_url: data.diploma_url,

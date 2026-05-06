@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import { PhishingScene } from '../components/scenes/PhishingScene'
 import { RansomwareScene } from '../components/scenes/RansomwareScene'
 import { PhysicalScene } from '../components/scenes/PhysicalScene'
